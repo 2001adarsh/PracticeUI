@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
             requestFeature(Window.FEATURE_CONTENT_TRANSITIONS)
             enterTransition = Explode()
             exitTransition = Fade()
+
+            //Adarsh
         }
         setContentView(R.layout.activity_main)
         supportFragmentManager.beginTransaction().replace(R.id.fragment_main, SignInFragment()).commit()
